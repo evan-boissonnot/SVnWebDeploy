@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Boissonnot.Projects.SvnWebDeploy.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SVN_HOOK_PATH" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">F:\Temp\svnlook.exe</Value>
+    </Setting>
+    <Setting Name="HUDSON_PROJECT_URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://{jenkins_url}/job/{0}/build?token=build</Value>
+    </Setting>
+    <Setting Name="WGET_PATH" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HUDSON_PROJECT_PUBLISH_URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://{jenkins_url}/job/{0}-Publish/build?token=build</Value>
+    </Setting>
+    <Setting Name="PUBLISH_RECETTE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PUBLISHRECETTE</Value>
+    </Setting>
+    <Setting Name="PUBLISH_INTEGRATION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PUBLISHINTEGRATION</Value>
+    </Setting>
+    <Setting Name="DEBUG_PATH" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JENKINS_USER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JENKINS_PASSWORD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
